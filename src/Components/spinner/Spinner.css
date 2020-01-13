@@ -1,0 +1,58 @@
+.Spin {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.spinBTN {
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .75);
+    padding: 10px 100px;
+    cursor: pointer;
+    transition: all .25s ease-in;
+}
+
+button:hover {
+    transform: scale(1.05) translate(-2px);
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, .75);
+}
+
+.checkBox {
+    transform: scale(1.5);
+}
+
+.labelBox {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+    text-transform: uppercase;
+
+}
+
+.Spinner {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: darkblue;
+}
+
+.Input-group {
+    margin: 20px 0;
+}
